@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>   
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <ul>Adopciones
+                    <li><a href="../adopciones/gatos.html">Gatos</a></li>
+                    <li><a href="../adopciones/perros.html">Perros</a></li>
+                </ul>
+                <li><a href="../nosotros/nosotros.html">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav> 
+    </header> 
+    <hr>
+    <main>
+        <!--Form: email, nombre, localidad, text input-->
+        <form action="">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <br>
+                <div>
+                    <label for="adoptante">¿Adoptó alguna vez en Patitas Al Rescate?</label>
+                    <input type="radio" name="adoptante" id="adoptante" value="si">Sí
+                    <input type="radio" name="adoptante" id="adoptante" value="no">No
+                </div>  
+                <br>
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombreUsuario" id="nombre">
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" name="apellidoUsuario" id="apellido">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Ingrese su email: </label>
+                    <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com">
+                </div>
+                <br>
+                <div>
+                    <label for="numeroContacto">Ingrese un número telefónico de contacto: </label>
+                    <input type="number" name="telefonoUsuario" id="numeroContacto">
+                </div>
+                <br>
+                <div>
+                    <label for="consulta">Ingrese su consulta: </label>
+                    <br>
+                    <input type="text" name="consultaUsuario" id="consulta">
+                </div>  
+                <br>
+                <div>¿Desea recibir los avisos y novedades?
+                    <select name="newsletter" id="">
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <br>
+                <input type="reset" value="Limpiar formulario">
+                <input type="submit" value="Enviar consulta">
+    
+            </fieldset>
+        </form> 
+        <br>
+        <h1>Soy contacto</h1>
+    </main>
+    <hr>
+    <footer>
+        <i class="fab fa-facebook-square"><a href="http://"></a></i>
+        <i class="fab fa-twitter-square"><a href="http://"></a></i>
+        <i class="fas fa-envelope-square"><a href="mailto:"></a></i>
+        <i class="fab fa-whatsapp-square"><a href="http://"></a></i>
+        <i class="far fa-copyright">Francisco Ara - 2022</i>
+        <br>
+        <a href="">Donaciones</a>
+        <img src="../imagenes/logo.jpg" alt="">
+    </footer>
+</body>
+</html>
