@@ -123,6 +123,7 @@ main {
 
 .titulo {
     padding: 1rem;
+
 }
 
 .noticias {
@@ -147,7 +148,7 @@ main {
     font-size: 3.125rem;
     color: black;
     text-transform: uppercase;
-    margin-left: 2vw;
+    padding-left: 5rem;
 }
 
 .main__subtitulo {
@@ -428,7 +429,7 @@ footer {
 
 
 
-    /*//////////////////// ESTILOS GATOS //////////////////////////*/
+    /*//////////////////// ESTILOS GATOS Y PERROS //////////////////////////*/
 
     /*//////////////// Cartel //////////*/
 .main__pregunta {
@@ -438,6 +439,7 @@ footer {
     font-size: 2rem;
     color: black;
     margin-top: 2vh;
+    padding-left: 5rem;
 }
 
 .requisitos{
@@ -472,7 +474,7 @@ footer {
 /*//////////////// Cartel //////////*/
 /*//////////////// CONTENIDO //////////*/
 
-.gatos {
+.gatos-perros {
     display: flex;
     gap: 10rem;
     margin: 5rem;
@@ -480,21 +482,386 @@ footer {
     flex-wrap: wrap;
 }
 
-.gatos img {
-    width: 25rem;
-    height: 45rem;
+.gatos-perros img {
+    width: 20rem;
+    height: 40rem;
 }
 
-.gatos div h4 {
+.gatos-perros div h4 {
     text-align: center;
     padding: 1rem;
     font-size: 1.5rem;
     text-transform: uppercase;
 }
 
+/*//////////////////// ESTILOS GATOS Y PERROS //////////////////////////*/
+/*//////////////////// ESTILOS CONTACTO //////////////////////////*/
 .form_texto {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     line-height: 3rem;
     padding-left: 5rem;
 }
+
+
+
+.contacto-form {
+    width: 40%;
+    padding-left: 5rem;
+    margin: 2rem 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contacto-texto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 3rem;
+    padding-left: 5rem;
+}
+
+.btn-form {
+    background-color: #EDE0D4;
+    border: none;
+}
+
+
+#contacto-form-limpiar, #contacto-form-send {
+    margin: 1rem;
+    height: 2rem;
+    width: 10rem;
+    background-color: #DDB892;
+    color: #EDE0D4;
+    border-radius: .8rem;
+    border: solid #EDE0D4
+}
+/*//////////////////// ESTILOS CONTACTO //////////////////////////*/
+/*//////////////////// ESTILOS NOSOTROS //////////////////////////*/
+
+.presentacion-texto {
+    line-height: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    grid-area: presentacion-texto;
+}
+.presentacion-texto p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+
+.presentacion-imagen {
+    height: 200px;
+    width: 300px;
+    border: double #7F5539 5px;
+}
+
+.presentacion-imagen1 {
+    grid-area: presentacion-imagen1;
+}
+
+.presentacion-imagen2 {
+    grid-area: presentacion-imagen2;
+}
+
+.presentacion-imagen3 {
+    grid-area: presentacion-imagen3;
+    margin: auto;
+}
+
+.presentacion-imagen4 {
+    grid-area: presentacion-imagen4;
+    margin: auto;
+}
+
+.presentacion-imagen5 {
+    grid-area: presentacion-imagen5;
+    margin: auto;
+}
+
+.presentacion {
+    height: 60rem;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "presentacion-imagen1 presentacion-texto presentacion-texto presentacion-texto"
+    "presentacion-imagen2 presentacion-texto presentacion-texto presentacion-texto"
+    "none presentacion-imagen3 presentacion-imagen4 presentacion-imagen5";
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+/*////////////////////////////////// MEDIA QUERYS //////////////////////////////////////////*/
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    header {
+        position: static;
+    }
+    main {
+        margin-top: 0;
+    }
+
+    .header__li {
+        margin-right: 0px;
+        margin-left: 72px;
+    }
+
+    .header__ul__ul {
+        margin-left: 3px;
+    }
+
+    .titulo {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .main__subtitulo {
+        margin-left: 0;
+    }
+
+    .cuerpo {
+        display: inline-block;
+    }
+
+    .noticias {
+        width: 100%;
+    }
+
+    .noticiaMimosa {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    #fotoMimosa {
+        width: 40vw;
+    }
+
+    .h3__mimosa {
+        justify-content: center;
+    }
+
+    .div__textoMimosa {
+        margin: 0 2rem;
+    }
+
+    .noticiaDeudaSaldada {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    .h3__deuda {
+        text-align: center;
+    }
+
+    .div__textoDeudaSaldada {
+        margin: 0 2rem;
+    }
+
+    .texto__deuda {
+        margin: 1rem 2rem;
+    }
+
+    .noticia2021 {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    #titulo__2021 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #parrafo__2021 {
+        margin: 1rem 2rem;
+    }
+
+    .texto__2021 {
+        margin: 0 2rem;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .formulario_adopcion {
+        overflow: visible;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .redes_sociales {
+        flex-direction: column;
+        height: 15rem;
+    }
+
+    .brand {
+        margin: 1rem auto;
+    }
+
+    .footer__imagenes {
+        margin: 1rem auto;
+    }
+
+    /* ADOPCIONES */
+    .main__pregunta {
+        padding-left: 0;
+    }
+
+    .requisitos {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        gap: 5vh;
+    }
+
+    .requisitos__imagen {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+    }
+
+    .requisitos__texto h3 {
+        margin-bottom: 1rem;
+    }
+
+    .form_texto {
+        margin: 2rem;
+    }
+
+    fieldset {
+        margin: 2rem;
+        margin-bottom: 0;
+    }
+
+    .contacto-texto {
+        width: 90%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .contacto-form {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .presentacion {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    }
+
+    .presentacion-imagen1, .presentacion-imagen2, .presentacion-imagen3, .presentacion-imagen4, .presentacion-imagen5 {
+        margin: 1rem 0;
+    }
+
+    #formulario_legend {
+        font-size: 2.5rem;
+    }
+}
+
+
+
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+    .redes_sociales {
+        margin: 0;
+        width: 100%;
+    }
+
+    #header__logo {
+        height: 75%;
+        width: 9rem;   
+    }
+
+    .header__li {
+        margin-left: 40px;
+    }
+
+    .main__titulo {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #fotoMimosa {
+        width: 35vh;
+        height: 48vh;
+    }
+
+    .h3__mimosa {
+        margin-bottom: 1rem;
+    }
+
+    fieldset {
+        margin-bottom: 1rem;
+    }
+
+    .footer__imagenes {
+        width: 90%;
+    }
+
+    #formulario_legend {
+        font-size: 1.5rem;
+    }
+
+    .header__ul__ul {
+        margin-left: 1.69rem;
+   }
+
+   .requisitos__texto h3 {
+       font-size: 2rem;
+   }
+
+   .requisitos__texto ul li {
+       font-size: 1rem;
+   }
+
+   .form_texto {
+       padding-left: 0;
+       margin: 3rem;
+   }
+
+   fieldset {
+        margin: 1rem;   
+        margin-bottom: 0;
+   }
+
+   .brand {
+       width: 100%;
+   }
+
+   .footer__logo {
+        display: flex;
+        margin: auto;
+   }
+
+   .requisitos__imagen img {
+    width: 100%;
+   }
+
+   .gatos-perros img {
+    width: 15rem;
+    height: 25rem;
+   }
+
+   .gatos-perros {
+       gap: 1rem;
+   }
+
+   #header__logo {
+        margin-top: 1vh;
+   }
+
+
+}
+
+/*PROBLEMAS CON LOS MEDIA QUERyS: 
+Cuando tengo por ejemplo un display:flex, y uno de los dos contenedores hijos es más grande que el otro, el otro contenedor hijo automáticamente toma el tamaño del otro, y me queda muchísimo espacio libre

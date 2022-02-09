@@ -1,41 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Perros</title>
 </head>
 <body>
     <header>
-        <nav>   
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <ul>Adopciones
-                    <li><a href="gatos.html">Gatos</a></li>
-                    <li><a href="#">Perros</a></li>
+        <div id="header__div">
+            <hr class="header__hr">
+            <hr class="header__hr">
+            <nav class="header__nav">
+                <a href="../index.html"><img id="header__logo" src="../imagenes/logo.png" alt=""></a>
+                <ul class="header__ul">
+                    <li class="header__li"><a href="../index.html">Inicio <i class="fas fa-home"></i></a></li>
+                    <li class="header__li"><a href="#">Adopciones <i class="fas fa-heart"></i></a>
+                        <ul class="header__ul__ul" id="adopciones">
+                            <li class="header__li" id="gatos"><a href="gatos.html">Gatos <i
+                                        class="fas fa-cat"></i></a></li>
+                            <li class="header__li" id="perros"><a href="#">Perros <i
+                                        class="fas fa-dog"></i></a></li>
+                        </ul>
+                    </li>
+                    <li class="header__li"><a href="../nosotros/nosotros.html">Nosotros <i class="fas fa-users"></i></a>
+                    </li>
+                    <li class="header__li"><a href="../contacto/contacto.html">Contacto <i class="fas fa-pen"></i></a>
+                    </li>
                 </ul>
-                <li><a href="../nosotros/nosotros.html">Nosotros</a></li>
-                <li><a href="../contacto/contacto.html">Contacto</a></li>
-            </ul>
-        </nav> 
+            </nav>
+        </div>
     </header> 
     <hr>
-    <main>
-        <h1>Soy perros</h1>
-    </main>
     <hr>
+    <main>
+        <div class="titulo">
+            <a href="./index.html" class="main__titulo">Patitas al rescate</h1></a>
+            <h2 class="main__subtitulo">Asociación civil</h2>
+            <h2 class="main__pregunta">¿Querés adoptar un perro?</h2>
+        </div>
+        <div class="requisitos">
+            <div class="requisitos__imagen"><img src="https://picsum.photos/id/237/300/500" alt="perro-en-adopcion"></div>
+            <div class="requisitos__texto">
+                <h3>REQUISITOS</h3>
+                <ul>
+                    <li>Ser mayor de 21 años</li>
+                    <li>Comprometerse con la castración del animal</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Cumque possimus temporibus eos! Vero!</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="gatos-perros">
+            <div class="max">
+                <img src="https://i.picsum.photos/id/1084/4579/3271.jpg?hmac=YblMazviSugJVfZsFPaFI_Vp6lBeQin62qpm8rxHruo" alt="perro1">
+                <h4>Max</h4>
+            </div>
+            <div class="titan">
+                <img src="https://i.picsum.photos/id/169/2500/1662.jpg?hmac=3DBeyQbiPxO88hBdhIuFPbvy2ff7cm9vmnq8lPIL9Ug" alt="perro2">
+                <h4>Titán</h4>
+            </div>
+            <div class="quinto">
+                <img src="https://i.picsum.photos/id/219/5184/3456.jpg?hmac=2LU7i3c6fykd_J0T6rZm1aBoBmK4ivkH1Oc459aRUU0" alt="perro3">
+                <h4>Quinto</h4>
+            </div>
+            <div class="matthew">
+                <img src="https://i.picsum.photos/id/275/4288/2848.jpg?hmac=DHPZUN0qLc6KRiIP21_mfYCi-BxH9JKNYPPJRhG8t40" alt="perro4">
+                <h4>Matthew</h4>
+            </div>
+            <p>En vez de que esto quede acá solo, acá tiene que haber un slider horizontal para que se vea todo en una línea, al igual que en el footer</p>
+        </div>
+            <div class="form_texto">
+                <p>A continuación, te dejamos el formulario de adopción para comenzar con el proceso del animal elegido. Los pasos a seguir son los siguientes:
+                    <ol>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ducimus.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ducimus.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ducimus.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ducimus.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ducimus.</li>
+                    </ol>
+                </p>
+            </div>
+        <form class="formulario_adopcion" action="" method="get">
+            <fieldset>
+                <br>
+                <div class="formulario_email">
+                    <label for="email">Ingrese su correo electrónico: </label> <br>
+                    <input type="email" name="emailUsuario" id="email" placeholder="ejemplo@ejemplo.com" required>
+                </div>
+                <br>
+                <div class="formulario_nombre_animal">Nombre del gato/perro: 
+                    <select name="nombre_animal" id="nombre_animal" required>
+                        <option value="" disabled selected>Seleccione el nombre</option>
+                        <option value="oddie">Oddie</option>
+                        <option value="mostaza">Mostaza</option>
+                        <option value="prin">Prin</option>
+                        <option value="poroto">Poroto</option>
+                        <option value="garbanzo">Garbanzo</option>
+                        <option value="chimi">Chimi</option>
+                        <option value="churri">Churri</option>
+                        <option value="morcilla">Morcilla</option>
+                    </select>
+                </div> <br>
+                <div class="formulario_motivo"> 
+                    <label for="motivo_adopcion">¿Por qué le interesa este animal en especial?</label> <br>
+                    <input type="text" name="motivo_adopcion" id="motivo_adopcion" required>
+                </div> <br>
+                <div class="formulario_nombre_adoptante">
+                    <label for="nombre_adoptante">Nombre y apellido del responsable del hogar:</label> <br>
+                    <input type="text" name="nombre_adoptante" id="nombre_adoptante" required>
+                </div> <br>
+                <div class="formulario_edad_adoptante">
+                    <label for="edad_adoptante">Edad del responsable del hogar:</label> <br>
+                    <input type="number" name="edad_adoptante" id="edad_adoptante" required>
+                </div> <br>
+                <div class="formulario_telefono_adoptante">
+                    <label for="telefono_adoptante">Ingrese el numero de telefono del responsable del hogar: </label> <br>
+                    <input type="number" name="telefono_adoptante" id="telefono_adoptante" required>
+                </div> <br>
+                <div class="formulario_domicilio_adoptante">
+                    <label for="domicilio_adoptante">Domicilio y localidad:</label> <br>
+                    <input type="text" name="domicilio_adoptante" id="domicilio_adoptante" required>
+                </div> <br>
+                <div class="formulario_composicion_familia">
+                    <label for="composicion_familia">¿Cómo se compone el grupo familiar adoptante?</label> <br>
+                    <input type="text" name="composicion_familia" id="composicion_familia" required>
+                </div> <br>
+                <div class="formulario_deacuerdo">
+                    <label for="usuario_deacuerdo">¿Están todos de acuerdo con la adopción?</label> <br>
+                    <input type="radio" name="usuario_deacuerdo" id="usuario_deacuerdo" value="si">Sí <br>
+                    <input type="radio" name="usuario_deacuerdo" id="usuario_deacuerdo" value="no">No
+                </div> <br>
+                <div class="formulario_motivos">
+                    <label for="motivos">¿Cuáles son los motivos que te hacen querer adoptar?</label> <br>
+                    <input type="text" name="motivos" id="motivos" required>
+                </div> <br>
+                <div class="formulario_caracter_deseado">
+                    <label for="caracter_deseado">Describí el carácter deseado del animal que querés adoptar. ¿Qué harías si el animal tiene un carácter diferente al esperado?</label> <br>
+                    <input type="text" name="caracter_deseado" id="caracter_deseado" required>
+                </div> <br>
+                <div class="formulario_problema">
+                    <label for="problema">Ante una inadaptación o problema de comportamiento del animal adoptado, ¿qué harías?</label> <br>
+                    <input type="text" name="problema" id="problema" required>
+                </div> <br>
+                <div class="formulario_devolucion">
+                    <label for="devolucion">¿En qué circunstancias considerarías 'devolver' al animal adoptado? ¿Lo harías?</label> <br>
+                    <input type="text" name="devolucion" id="devolucion" required>
+                </div> <br>
+                <div class="formulario_educacion">
+                    <label for="educacion">¿Cómo educas/castigás a un animal? ¿Qué medidas tomás para hacerlo?</label> <br>
+                    <input type="text" name="educacion" id="educacion" required>
+                </div> <br>
+                <div class="formulario_vivienda">
+                    <label for="vivienda">Tipo de vivienda:</label> <br>
+                    <input type="radio" name="vivienda" id="vivienda" value="ph">PH <br>
+                    <input type="radio" name="vivienda" id="vivienda" value="casa">Casa <br>
+                    <input type="radio" name="vivienda" id="vivienda" value="departamento">Departamento <br>
+                    <input type="radio" name="vivienda" id="vivienda" value="Loft">Loft <br>
+                    <input type="text" name="vivienda" id="vivienda" placeholder="Otro (indicar cuál)">
+                </div> <br>
+                <div class="formulario_escape">
+                    <label for="escape">¿Hay posibilidad de que el animal se escape?</label> <br>
+                    <input type="text" name="escape" id="escape" required>
+                </div> <br>
+                <div class="formulario_descanso_animal">
+                    <label for="descanso_animal">¿Dónde dormiría y viviría el animal? ¿En interiores o en exteriores? ¿En qué momentos?</label> <br>
+                    <input type="text" name="descanso_animal" id="descanso_animal" required>
+                </div> <br>
+                <div class="formulario_horas_solo">
+                    <label for="horas_solo">¿Cuántas horas estaría solo el animal?</label> <br>
+                    <input type="text" name="horas_solo" id="horas_solo" required>
+                </div> <br>
+                <div class="formulario_mas_animales">
+                    <label for="mas_animales">¿Tenés mascotas actualmente? ¿Cuáles? ¿Cuántos años tienen? En caso de haber tenido mascotas en el pasado, ¿qué les ocurrió?</label> <br>
+                    <input type="text" name="mas_animales" id="mas_animales" required>
+                </div> <br>
+                <div class="formulario_inadaptacion_mascotas">
+                    <label for="inadaptacion_mascotas">Ante una inadaptación o un problema entre tus mascotas y el animal adoptado, ¿qué harías?</label> <br>
+                    <input type="text" name="inadaptacion_mascotas" id="inadaptacion_mascotas" required>
+                </div> <br>
+                <div class="formulario_castracion">
+                    <label for="castracion">En caso de que tengas/hayas tenido, ¿están/estaban castrados? Si la respuesta es no, ¿por qué?</label> <br>
+                    <input type="text" name="castracion" id="castracion" required>
+                </div> <br>
+                <div class="formulario_vacaciones">
+                    <label for="vacaciones">En caso de irte de vacaciones, ¿evaluaste con quién podrías dejar al animal? ¿Te lo llevarías con vos?</label> <br>
+                    <input type="text" name="vacaciones" id="vacaciones" required>
+                </div> <br>
+                <div class="formulario_emigracion">
+                    <label for="emigracion">En caso de irte del país, ¿te lo llevarías? Si la respuesta es sí, ¿tenés en cuenta que tendrías que buscar un hogar donde te permitan llevar al animal adoptado?</label> <br>
+                    <input type="text" name="emigracion" id="emigracion" required>
+                </div> <br>
+                <div class="formulario_final">
+                    <p>Por último... <br> Desde Patitas Al Rescate le hacemos seguimiento a todos los animales que damos en adopción, por lo que vamos a estar pidiéndote fotos y videos para estar al tanto de su crecimiento, adaptación y estado de salud. También es posible que alguna vez te pidamos ir a visitarlo personalmente. <br>Adicionalmente, para poder recibir al animal en tu casa (en caso de que quedes seleccionado para adoptarlo) vamos a pedirte que leas atentamente y firmes dos copias del Contrato de Adopción. <br>Ante la falta de comunicación, alteración de los datos personales del adoptante o maltrato de la mascota, la asociación se reserva el derecho de retirar al animal de su domicilio por su seguridad.<br><br> </p>
+                    <label for="final">¿Estás de acuerdo?</label> <br>
+                    <input type="radio" name="final" id="final" value="si">Sí <br>
+                    <input type="radio" name="final" id="final" value="no">No
+
+                </div> <br>
+                <div class="formulario_botones" id="formulario_botones">
+                    <button type="reset">Limpiar formulario</button>
+                    <button type="submit">Enviar formulario</button>
+                </div>
+            </fieldset>
+        </form>
     <footer>
-        <i class="fab fa-facebook-square"><a href="http://"></a></i>
-        <i class="fab fa-twitter-square"><a href="http://"></a></i>
-        <i class="fas fa-envelope-square"><a href="mailto:"></a></i>
-        <i class="fab fa-whatsapp-square"><a href="http://"></a></i>
-        <i class="far fa-copyright">Francisco Ara - 2022</i>
-        <br>
-        <a href="">Donaciones</a>
-        <img src="../imagenes/logo.jpg" alt="">
+        <div class="redes_sociales">
+            <div class="iconos">
+                <div class="arriba">
+                    <a id="facebook" href="https://www.facebook.com/patitasalrescateba/?ref=page_internal"><i
+                            class="fab fa-facebook-square fa-3x"></i></a>
+                    <a id="twitter" href="http://https://twitter.com/patitasvtelopez"><i
+                            class="fab fa-twitter-square fa-3x"></a></i>
+                </div>
+                <div class="abajo">
+                    <a id="mail" href="mailto:acpatitasalrescate@gmail.com"><i class="fas fa-envelope-square fa-3x">
+                    </a></i>
+                    <a id="instagram" href="https://www.instagram.com/patitasalrescate/"><i
+                            class="fab fa-instagram-square fa-3x"></i></a>
+                </div>
+            </div>
+
+            <br>
+            <div class="donaciones">
+                <a id="donaciones"
+                    href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380847c3e15c6017c4b4c3db4036c">
+                    Donaciones (débito automático)</a>
+            </div>
+        </div>
+        <div class="brand">
+            <a href="index.html"><img class="footer__logo" src="../imagenes/logo.png" alt=""></a>
+            <i id="copyright" class="far fa-copyright"> Francisco Ara - 2022</i>
+        </div>
+
+        <div class="footer__imagenes">
+
+        </div>
+        <!--Averiguar como hacer un slider automático de fotos-->
     </footer>
 </body>
 </html>
