@@ -78,7 +78,7 @@ header .header__nav {
     padding: 10px 0;
     text-align: center;
     margin-top: 1vh;
-    text-transform: uppercase;  
+    text-transform: uppercase; 
 }
 
 #gatos, #perros {
@@ -93,6 +93,28 @@ header .header__nav {
     font-family: 'Open Sans', sans-serif;
     font-weight: 1000;
     font-size: 1rem;
+}
+
+.header__li a:hover {
+    background-color: #9C6644;
+}
+
+.header__li:hover {
+    transform: scale(1.1,1.1);
+    background-color: #9C6644;
+}
+
+#gatos:hover, #perros:hover {
+    transform: scale(1,1);
+    background-color: #9C6644;
+}
+
+#header__logo:hover {
+    transform: scale(1.1,1.1);
+}
+
+.donaciones:hover {
+    text-decoration: underline;
 }
 
 
