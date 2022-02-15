@@ -31,34 +31,31 @@
 </head>
 <body>
     <header>
-        <div id="header__div">
-            <hr class="header__hr">
-            <hr class="header__hr">
-            <nav class="header__nav">
-                <a href="../index.html"><img id="header__logo" src="../imagenes/logo.png" alt=""></a>
-                <ul class="header__ul">
-                    <li class="header__li"><a href="../index.html">Inicio <i class="fas fa-home"></i></a></li>
-                    <li class="header__li"><a href="#">Adopciones <i class="fas fa-heart"></i></a>
-                        <ul class="header__ul__ul" id="adopciones">
-                            <li class="header__li" id="gatos"><a href="gatos.html">Gatos <i
-                                        class="fas fa-cat"></i></a></li>
-                            <li class="header__li" id="perros"><a href="#">Perros <i
-                                        class="fas fa-dog"></i></a></li>
-                        </ul>
-                    </li>
-                    <li class="header__li"><a href="../nosotros/nosotros.html">Nosotros <i class="fas fa-users"></i></a>
-                    </li>
-                    <li class="header__li"><a href="../contacto/contacto.html">Contacto <i class="fas fa-pen"></i></a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <ul class="nav nav-tabs">
+            <a href="index.html"><img id="header_logo" src="../imagenes/logo.png" alt=""></a>
+            <li class="nav-item">
+              <a class="nav-link active dropdown-toggle" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Adopciones</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="gatos.html">Gatos</a></li>
+                <li><a class="dropdown-item" href="#">Perros</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../nosotros/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
+            </li>
+          </ul>
     </header> 
     <hr>
     <hr>
     <main>
         <div class="titulo">
-            <a href="./index.html" class="main__titulo">Patitas al rescate</h1></a>
+            <a href="../index.html" class="main__titulo">Patitas al rescate</h1></a>
             <h2 class="main__subtitulo">Asociación civil</h2>
             <h2 class="main__pregunta">¿Querés adoptar un perro?</h2>
         </div>
