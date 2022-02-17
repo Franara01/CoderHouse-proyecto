@@ -618,6 +618,101 @@ footer {
     align-items: center;
 }
 
+
+
+
+/* BS */
+hr:not([size]) {
+    height: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+.carousel-inner {
+    height: 12rem;
+    width: 35%;
+    margin: auto;
+
+}
+
+ul {
+    padding-left: 0;
+}
+
+.formulario_adopcion {
+    height: 100rem;
+}
+
+.carousel-inner-gatos {
+    height: 12rem;
+    width: 35%;
+    margin: auto;
+
+}
+
+.nav {
+    justify-content: space-around;
+    background-color: #EDE0D4;
+}
+
+#header_logo {
+    height: 10rem;
+    border: double black;
+    margin-top: 1rem;
+}
+
+.nav-tabs .nav-link {
+    border: solid #DDB892;
+    background-color: #EDE0D4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item {
+    margin-top: 3rem;
+}
+
+.nav-link {
+    color: black;
+}
+
+ul.dropdown-menu.show {
+    background-color: #EDE0D4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: black;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: black;
+    border-color: #DDB892;
+    background-color: #EDE0D4;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+main {
+    margin-top: 0;
+}
+
+a:hover {
+    color: black;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:hover {
+    border-color: #e9ecef #e9ecef #dee2e6;
+}
+
+.carousel-img {
+    height: 35rem;
+    width: 35%;
+    margin: auto;
+}
+
+
 /*////////////////////////////////// MEDIA QUERYS //////////////////////////////////////////*/
 
 /*Tablet*/
@@ -883,92 +978,20 @@ footer {
        gap: 1rem;
    }
 
-   #header__logo {
+   #header_logo {
         margin-top: 1vh;
+        margin-left: 33%;
+        margin-right: 33%;
    }
 
-
-}
-
-
-/* BS */
-hr:not([size]) {
-    height: 0;
-}
-
-hr {
-    margin: 0;
-}
-
-.carousel-inner {
-    height: 12rem;
-    width: 35%;
-    margin: auto;
-
-}
-
-ul {
-    padding-left: 0;
-}
-
-.formulario_adopcion {
-    height: 100rem;
-}
-
-.carousel-inner-gatos {
-    height: 12rem;
-    width: 35%;
-    margin: auto;
-
-}
-
 .nav {
-    justify-content: space-around;
-    background-color: #EDE0D4;
+    flex-direction: column;
 }
 
-#header_logo {
-    height: 10rem;
-    border: double black;
-    margin-top: 1rem;
+a.nav-link {
+    width: 50%;
+    margin: auto;
 }
-
-.nav-tabs .nav-link {
-    border: solid #DDB892;
-    background-color: #EDE0D4;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.nav-item {
-    margin-top: 3rem;
-}
-
-.nav-link {
-    color: black;
-}
-
-ul.dropdown-menu.show {
-    background-color: #EDE0D4;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.nav-link:focus, .nav-link:hover {
-    color: black;
-}
-
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: black;
-    border-color: #DDB892;
-    background-color: #EDE0D4;
-    font-family: 'Open Sans', sans-serif;;
-}
-
-main {
-    margin-top: 0;
-}
-
-a:hover {
-    color: black;
 }
 /*PROBLEMAS CON LOS MEDIA QUERyS: 
 Cuando tengo gatos-perros ejemplo un display:flex, y uno de los dos contenedores hijos es más grande que el otro, el otro contenedor hijo automáticamente toma el tamaño del otro, y me queda muchísimo espacio libre
