@@ -1,0 +1,155 @@
+@media screen and (max-width: 768px) {
+    
+    .noticiaMimosa, .noticiaDeudaSaldada, .noticia2021 {
+        display: inline;
+        padding: 1rem;
+    }
+
+    .titulo{
+        text-align: center;
+    }
+
+    .div__fotoMimosa, .divImagenDeudaSaldada, .imagenes__2021 {
+        padding-bottom: 2rem;
+    }
+
+    .div__textoMimosa, .div__textoDeudaSaldada, .texto__2021 {
+        align-items: center;
+    }
+
+    .textoMimosa, .texto__deuda, #parrafo__2021 {
+        padding: 1rem;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .redes_sociales {
+        flex-direction: column;
+        height: 15rem;
+    }
+
+    .brand {
+        margin-top: 1rem;
+    }
+
+    .carousel-adopciones {
+        width: 75%;
+        height: 50rem;
+        margin-top: 2rem;
+    }
+
+    .carousel-control-next-gatos, .carousel-control-prev-gatos {
+        width: 15%;
+    }
+
+    .form_texto {
+        padding: 0;
+        text-align: center;
+    }
+
+    .presentacion {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .presentacion-imagen1, .presentacion-imagen2, .presentacion-imagen3, .presentacion-imagen4, .presentacion-imagen5 {
+        padding: 1rem;
+    }
+
+    .contacto-texto {
+        padding: 2rem;
+    }
+
+    .texto-form-contacto {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .header-logo {
+        margin: 1rem auto;
+    }
+
+    .nav-item {
+        width: 80%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .main__titulo, .texto__deuda, #parrafo__2021 {
+        padding: 0;
+    }
+
+    .main__subtitulo {
+        margin: 0;
+    }
+
+    .div__fotoMimosa, .divImagenDeudaSaldada, .imagenes__2021 {
+        display: flex;
+    }
+
+    #fotoMimosa, #imagenDeudaSaldada, #cover2021, #adopciones2021, #vidas2021, #voluntarios2021, #gracias2021 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .textoMimosa, #parrafo__2021 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .redes_sociales, .brand {
+        width: auto;
+    }
+
+    .brand a{
+        margin: auto;
+    }
+
+    .footer__logo, #copyright {
+        margin: auto;
+    }
+
+    .footer__imagenes {
+        width: 100%;
+        margin: 2rem;
+        margin-right: 0;
+    }
+
+    .main__pregunta {
+        padding: 0;
+    }
+
+    .requisitos__imagen {
+        justify-content: center;
+    }
+    
+    .requisitos__texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .requisitos__texto h3 {
+        margin-top: 2rem;
+    }
+
+    .carousel-adopciones {
+        height: 30rem;
+    }
+    
+    .form_texto {
+        margin: 1.5rem;
+        text-align: left;
+    }
+}

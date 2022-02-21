@@ -1,0 +1,730 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+hr:not([size]) {
+  height: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+.nav {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #EDE0D4;
+}
+
+.nav #header_logo {
+  height: 10rem;
+  border: double black;
+  margin-top: 1rem;
+}
+
+.nav #header_logo:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.nav-tabs .nav-link {
+  border: solid #DDB892;
+  background-color: #EDE0D4;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+.nav-item {
+  margin-top: 3rem;
+}
+
+.nav ul.dropdown-menu.show {
+  background-color: #EDE0D4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: black;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: black;
+  border-color: #DDB892;
+  background-color: #EDE0D4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  background-color: #EDE0D4;
+}
+
+main .titulo {
+  padding: 1rem;
+}
+
+main .titulo .main__titulo {
+  font-family: 'Permanent Marker', cursive;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 3.125rem;
+  color: black;
+  text-transform: uppercase;
+  padding-left: 5rem;
+}
+
+main .titulo .main__subtitulo {
+  font-family: 'Permanent Marker', cursive;
+  -webkit-text-decoration: black;
+          text-decoration: black;
+  font-weight: 500;
+  font-size: 1.625rem;
+  color: black;
+  margin-left: 19vw;
+}
+
+main .noticiaMimosa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 0;
+}
+
+main .noticiaMimosa #fotoMimosa {
+  width: 30.5rem;
+  height: 37.5rem;
+  border: double #DDB892 5px;
+  margin: 0 8.4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .noticiaMimosa .div__textoMimosa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+main .noticiaMimosa .div__textoMimosa .h3__mimosa {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main .noticiaDeudaSaldada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 0;
+}
+
+main .noticiaDeudaSaldada #imagenDeudaSaldada {
+  width: 30.5rem;
+  height: 37.5rem;
+  border: double #DDB892 5px;
+  margin: 0 8.4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .noticiaDeudaSaldada .div__textoDeudaSaldada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+main .noticiaDeudaSaldada .div__textoDeudaSaldada .h3__deuda {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main .noticia2021 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 0;
+}
+
+main .noticia2021 #cover2021, main .noticia2021 #adopciones2021, main .noticia2021 #vidas2021, main .noticia2021 #voluntarios2021, main .noticia2021 #gracias2021 {
+  width: 30.5rem;
+  height: 37.5rem;
+  border: double #DDB892 5px;
+  margin: 0 8.4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .noticia2021 .texto__2021 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+main .noticia2021 .texto__2021 .h3__2021 {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*form index*/
+.formulario_adopcion {
+  overflow: scroll;
+  height: 80rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.formulario_adopcion div {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0.5rem;
+  border: solid #DDB892;
+  margin: 1rem;
+}
+
+#formulario_legend {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.formulario_botones button, #contacto-form-limpiar, #contacto-form-send {
+  margin: 1rem;
+  height: 2rem;
+  width: 10rem;
+  background-color: #DDB892;
+  color: #EDE0D4;
+  border-radius: .8rem;
+  border: solid #EDE0D4;
+}
+
+#formulario_botones {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#motivo_adopcion, #composicion_familia, #motivos, #caracter_deseado, #problema, #devolucion, #educacion, #escape, #descanso_animal, #mas_animales, #inadaptacion_mascotas, #castracion, #vacaciones, #emigracion, #consulta {
+  width: 100%;
+  height: 5rem;
+  background-color: #EDE0D4;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#email, #nombre_animal, #nombre_adoptante, #edad_adoptante, #telefono_adoptante, #domicilio_adoptante, #usuario_deacuerdo, #vivienda, #horas_solo, #final, #nombre, #apellido, #numeroContacto, #newsletter {
+  background-color: #EDE0D4;
+  border: none;
+  height: 3rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#usuario_deacuerdo, #final, #vivienda {
+  height: 1rem;
+}
+
+/* form adopciones */
+.formulario_adopcion_gatos {
+  overflow: scroll;
+  height: 80rem;
+  width: 80%;
+  margin: auto;
+}
+
+.formulario_adopcion_gatos div {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0.5rem;
+  border: solid #DDB892;
+  margin: 1rem;
+}
+
+/* form contacto */
+.contacto-form {
+  width: 60%;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contacto-form div {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0.5rem;
+  border: solid #DDB892;
+  margin: 1rem;
+}
+
+.contacto-form .texto-form-contacto {
+  width: 60%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #EDE0D4;
+}
+
+footer .redes_sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem 3rem;
+  height: 12.5rem;
+  width: 44rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .redes_sociales .arriba {
+  margin: 2rem;
+}
+
+footer .redes_sociales .arriba #facebook {
+  color: blue;
+  margin-right: 3rem;
+}
+
+footer .redes_sociales .arriba #facebook .fa-facebook-square:hover {
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
+}
+
+footer .redes_sociales .arriba #twitter {
+  color: #5fc4e6;
+}
+
+footer .redes_sociales .arriba #twitter .fa-twitter-square:hover {
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
+}
+
+footer .redes_sociales .abajo {
+  margin: 2rem;
+}
+
+footer .redes_sociales .abajo #instagram {
+  color: #d84860;
+}
+
+footer .redes_sociales .abajo #instagram .fa-instagram-square:hover {
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
+}
+
+footer .redes_sociales .abajo #mail {
+  color: black;
+  margin-right: 3rem;
+}
+
+footer .redes_sociales .abajo #mail .fa-envelope-square:hover {
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
+}
+
+footer .redes_sociales #donaciones {
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 1000;
+}
+
+footer .redes_sociales #donaciones:hover {
+  text-decoration: underline;
+}
+
+footer .brand {
+  margin: 1rem 3rem;
+  height: 12.5rem;
+  width: 31rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .brand .footer__logo {
+  height: 7.5rem;
+  display: inline;
+  margin: 0 12rem;
+}
+
+footer .brand #copyright {
+  width: 14rem;
+  margin: 1.5rem 8.5rem 0 8.5rem;
+  color: black;
+}
+
+footer .footer__imagenes {
+  margin: 1rem 3rem;
+  height: 12.5rem;
+  width: 31rem;
+}
+
+footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, footer .footer__imagenes #footerImg3 {
+  width: 50%;
+  height: 13rem;
+  border: double #DDB892 5px;
+  margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* footer adopciones */
+.imagen-carousel-footer {
+  width: 50%;
+  height: 13rem;
+  border: double #DDB892 5px;
+  margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main__pregunta {
+  font-family: 'Permanent Marker', cursive;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 2rem;
+  color: black;
+  margin-top: 2vh;
+  padding-left: 5rem;
+}
+
+.banner {
+  padding: 3rem 0;
+  background-color: #DDB892;
+}
+
+.banner .requisitos__imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.banner .requisitos__imagen .imagenBanner {
+  border: double 0.4rem #7F5539;
+}
+
+.banner .requisitos__imagen .requisitos__texto h3 {
+  margin-bottom: 2rem;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+}
+
+.banner .requisitos__imagen .requisitos__texto ul li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 3rem;
+}
+
+.carousel-adopciones {
+  width: 30%;
+  height: 50rem;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.carousel-control-next-gatos, .carousel-control-prev-gatos {
+  width: 67%;
+}
+
+.form_texto {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 3rem;
+  padding-left: 5rem;
+}
+
+.presentacion-texto {
+  line-height: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  -ms-grid-row-span: 2;
+  -ms-grid-column-span: 3;
+  grid-area: presentacion-texto;
+}
+
+.presentacion-texto p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.presentacion {
+  height: 60rem;
+  width: 90%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "presentacion-imagen1 presentacion-texto presentacion-texto presentacion-texto"
+ "presentacion-imagen2 presentacion-texto presentacion-texto presentacion-texto"
+ "none presentacion-imagen3 presentacion-imagen4 presentacion-imagen5";
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.presentacion .presentacion-imagen1 {
+  grid-area: presentacion-imagen1;
+}
+
+.presentacion .presentacion-imagen2 {
+  grid-area: presentacion-imagen2;
+}
+
+.presentacion .presentacion-imagen3 {
+  grid-area: presentacion-imagen3;
+  margin: auto;
+}
+
+.presentacion .presentacion-imagen4 {
+  grid-area: presentacion-imagen4;
+  margin: auto;
+}
+
+.presentacion .presentacion-imagen5 {
+  grid-area: presentacion-imagen5;
+  margin: auto;
+}
+
+.presentacion .presentacion-imagen {
+  height: 200px;
+  width: 300px;
+  border: double #7F5539 5px;
+}
+
+.contacto-texto {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 3rem;
+  padding-left: 5rem;
+}
+
+.contacto-form {
+  width: 80%;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contacto-form div {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0.5rem;
+  border: solid #DDB892;
+  margin: 1rem;
+}
+
+#contacto-form-limpiar, #contacto-form-send {
+  margin: 1rem;
+  height: 2rem;
+  width: 10rem;
+  background-color: #DDB892;
+  color: #EDE0D4;
+  border-radius: 0.8rem;
+  border: solid #EDE0D4;
+}
+
+.texto-form-contacto {
+  width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .noticiaMimosa, .noticiaDeudaSaldada, .noticia2021 {
+    display: inline;
+    padding: 1rem;
+  }
+  .titulo {
+    text-align: center;
+  }
+  .div__fotoMimosa, .divImagenDeudaSaldada, .imagenes__2021 {
+    padding-bottom: 2rem;
+  }
+  .div__textoMimosa, .div__textoDeudaSaldada, .texto__2021 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .textoMimosa, .texto__deuda, #parrafo__2021 {
+    padding: 1rem;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .redes_sociales {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 15rem;
+  }
+  .brand {
+    margin-top: 1rem;
+  }
+  .carousel-adopciones {
+    width: 75%;
+    height: 50rem;
+    margin-top: 2rem;
+  }
+  .carousel-control-next-gatos, .carousel-control-prev-gatos {
+    width: 15%;
+  }
+  .form_texto {
+    padding: 0;
+    text-align: center;
+  }
+  .presentacion {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .presentacion-imagen1, .presentacion-imagen2, .presentacion-imagen3, .presentacion-imagen4, .presentacion-imagen5 {
+    padding: 1rem;
+  }
+  .contacto-texto {
+    padding: 2rem;
+  }
+  .texto-form-contacto {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-logo {
+    margin: 1rem auto;
+  }
+  .nav-item {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .titulo {
+    text-align: center;
+  }
+  .main__titulo, .texto__deuda, #parrafo__2021 {
+    padding: 0;
+  }
+  .main__subtitulo {
+    margin: 0;
+  }
+  .div__fotoMimosa, .divImagenDeudaSaldada, .imagenes__2021 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #fotoMimosa, #imagenDeudaSaldada, #cover2021, #adopciones2021, #vidas2021, #voluntarios2021, #gracias2021 {
+    width: 80%;
+    margin: auto;
+  }
+  .textoMimosa, #parrafo__2021 {
+    width: 90%;
+    margin: auto;
+  }
+  .redes_sociales, .brand {
+    width: auto;
+  }
+  .brand a {
+    margin: auto;
+  }
+  .footer__logo, #copyright {
+    margin: auto;
+  }
+  .footer__imagenes {
+    width: 100%;
+    margin: 2rem;
+    margin-right: 0;
+  }
+  .main__pregunta {
+    padding: 0;
+  }
+  .requisitos__imagen {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .requisitos__texto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .requisitos__texto h3 {
+    margin-top: 2rem;
+  }
+  .carousel-adopciones {
+    height: 30rem;
+  }
+  .form_texto {
+    margin: 1.5rem;
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=main.css.map */

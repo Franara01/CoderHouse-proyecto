@@ -1,0 +1,102 @@
+main {
+    background-color: #EDE0D4;
+    
+    .titulo {
+        padding: 1rem;
+        .main__titulo {
+            font-family: 'Permanent Marker', cursive;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 3.125rem;
+            color: black;
+            text-transform: uppercase;
+            padding-left: 5rem;
+        }
+        .main__subtitulo {
+            font-family: 'Permanent Marker', cursive;
+            text-decoration:black;
+            font-weight: 500;
+            font-size: 1.625rem;
+            color: black;
+            margin-left: 19vw;
+        }
+    }
+
+    .noticiaMimosa {
+        display: flex;
+        padding: 2rem 0;
+        #fotoMimosa {
+            width: 30.5rem;
+            height: 37.5rem;
+            border: double #DDB892 5px;
+            margin: 0 8.4rem;
+            object-fit: cover;
+        }
+        .div__textoMimosa {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.5rem;
+            text-align: justify;
+            .h3__mimosa {
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+    }
+    .noticiaDeudaSaldada {
+        display: flex;
+        padding: 2rem 0;
+        #imagenDeudaSaldada {
+            width: 30.5rem;
+            height: 37.5rem;
+            border: double #DDB892 5px;
+            margin: 0 8.4rem;
+            object-fit: cover;
+        }
+        .div__textoDeudaSaldada {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.5rem;
+            text-align: justify;
+            .h3__deuda  {
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+    }
+    .noticia2021 {
+        display: flex;
+        padding: 2rem 0;
+        #cover2021, #adopciones2021, #vidas2021, #voluntarios2021, #gracias2021 {
+            width: 30.5rem;
+            height: 37.5rem;
+            border: double #DDB892 5px;
+            margin: 0 8.4rem;
+            object-fit: cover;
+        }
+        .texto__2021 {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.5rem;
+            text-align: justify;
+            .h3__2021 {
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+    }
+    
+    
+
+}
+
+
+
+
+
