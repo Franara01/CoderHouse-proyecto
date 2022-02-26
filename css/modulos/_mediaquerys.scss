@@ -1,3 +1,5 @@
+@import "./variables";
+
 @media screen and (max-width: 768px) {
     
     .noticiaMimosa, .noticiaDeudaSaldada, .noticia2021 {
@@ -137,7 +139,7 @@
     .requisitos__texto {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center;;
     }
 
     .requisitos__texto h3 {

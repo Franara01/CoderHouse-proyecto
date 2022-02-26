@@ -1,7 +1,22 @@
-/* Variables paleta de colores */
-$marron1: #EDE0D4;
-$marron2: #E6CCB2;
-$marron3: #DDB892;
-$marron4: #B08968;
-$marron5: #9C6644;
-$marron6: #7F5539;
+
+/* Mixin */
+@mixin fontf-fonts-lineh {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 3rem;
+}
+
+/* Map */
+$divs: (
+    "redes_sociales": redes_sociales,
+    "brand": brand,
+    "footer__imagenes": footer__imagenes
+);
+
+@each $div, $class in $divs {
+    .#{$class} {
+        margin: 1rem 3rem;
+        height: 12.5rem;
+        width: 31rem;
+    }
+}

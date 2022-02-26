@@ -1,3 +1,4 @@
+@import "./variables";
 
 .main__pregunta {
     font-family: 'Permanent Marker', cursive;
@@ -23,13 +24,12 @@
             font-family: 'Permanent Marker', cursive;
             font-size: 2rem;
         }
-        .requisitos__texto ul li {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 1rem;
-            line-height: 3rem;
-        }
+    }
+    .requisitos__texto ul li {
+        @include fontf-fonts-lineh;
     }
 }
+
 
 .carousel-adopciones {
     width: 30%;
@@ -47,9 +47,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    line-height: 3rem;
+    @include fontf-fonts-lineh;
     padding-left: 5rem;
 }
 
