@@ -653,6 +653,10 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
   .noticiaMimosa, .noticiaDeudaSaldada, .noticia2021 {
     display: inline;
     padding: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .titulo {
     text-align: center;
@@ -665,7 +669,7 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
         -ms-flex-align: center;
             align-items: center;
   }
-  .textoMimosa, .texto__deuda, #parrafo__2021 {
+  .texto__mimosa, .texto__deuda, #parrafo__2021 {
     padding: 1rem;
   }
   footer {
@@ -677,15 +681,37 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
         -ms-flex-align: center;
             align-items: center;
   }
+  main .titulo {
+    padding: 2rem;
+  }
+  main .titulo .main__titulo, .main__pregunta {
+    padding-left: 0;
+  }
+  main .titulo .main__subtitulo {
+    margin-left: 0;
+  }
   .redes_sociales {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     height: 15rem;
+    margin: 0;
   }
   .brand {
     margin-top: 1rem;
+  }
+  footer .redes_sociales .arriba #twitter {
+    margin-right: 0;
+  }
+  div .row {
+    width: 100%;
+  }
+  .perroBanner {
+    margin-left: 9rem;
+  }
+  .banner .requisitos__texto ul li {
+    line-height: 2rem;
   }
   .carousel-adopciones {
     width: 75%;
@@ -695,9 +721,11 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
   .carousel-control-next-gatos, .carousel-control-prev-gatos {
     width: 15%;
   }
-  .form_texto {
-    padding: 0;
+  .form_texto p {
     text-align: center;
+  }
+  .form_texto {
+    padding: 1rem;
   }
   .presentacion {
     height: auto;
@@ -711,6 +739,9 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
   }
   .presentacion-imagen1, .presentacion-imagen2, .presentacion-imagen3, .presentacion-imagen4, .presentacion-imagen5 {
     padding: 1rem;
+  }
+  .contacto-form {
+    width: 75%;
   }
   .contacto-texto {
     padding: 2rem;
@@ -733,23 +764,41 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
     text-align: center;
   }
   .main__titulo, .texto__deuda, #parrafo__2021 {
-    padding: 0;
+    padding: 2rem;
   }
   .main__subtitulo {
     margin: 0;
+  }
+  .noticiaMimosa, .noticiaDeudaSaldada, .noticia2021 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .div__fotoMimosa, .divImagenDeudaSaldada, .imagenes__2021 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  #fotoMimosa, #imagenDeudaSaldada, #cover2021, #adopciones2021, #vidas2021, #voluntarios2021, #gracias2021 {
+  main .noticiaMimosa #fotoMimosa, main .noticia2021 #cover2021, main .noticiaDeudaSaldada #imagenDeudaSaldada, main .noticia2021 #adopciones2021, main .noticia2021 #vidas2021, main .noticia2021 #voluntarios2021, main .noticia2021 #gracias2021 {
     width: 80%;
     margin: auto;
   }
-  .textoMimosa, #parrafo__2021 {
-    width: 90%;
-    margin: auto;
+  footer .redes_sociales {
+    width: 100%;
+  }
+  footer .brand {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  footer .brand .footer__logo {
+    margin: 0 11rem;
+  }
+  .brand a {
+    width: 100%;
+  }
+  footer .brand #copyright {
+    margin-right: 0;
   }
   .redes_sociales, .brand {
     width: auto;
@@ -761,7 +810,7 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
     margin: auto;
   }
   .footer__imagenes {
-    width: 100%;
+    width: 85%;
     margin: 2rem;
     margin-right: 0;
   }
@@ -785,8 +834,19 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
         -ms-flex-align: center;
             align-items: center;
   }
+  .perroBanner {
+    margin: 0;
+  }
+  .banner .requisitos__imagen {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .requisitos__texto h3 {
     margin-top: 2rem;
+  }
+  .requisitos__texto {
+    margin: 1rem;
   }
   .carousel-adopciones {
     height: 30rem;

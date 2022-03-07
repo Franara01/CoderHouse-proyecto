@@ -5,6 +5,7 @@
     .noticiaMimosa, .noticiaDeudaSaldada, .noticia2021 {
         display: inline;
         padding: 1rem;
+        flex-direction: column;
     }
 
     .titulo{
@@ -19,7 +20,7 @@
         align-items: center;
     }
 
-    .textoMimosa, .texto__deuda, #parrafo__2021 {
+    .texto__mimosa, .texto__deuda, #parrafo__2021 {
         padding: 1rem;
     }
 
@@ -28,13 +29,42 @@
         align-items: center;
     }
 
+    main .titulo {
+        padding: 2rem;
+    }
+
+    main .titulo .main__titulo, .main__pregunta {
+        padding-left: 0;
+    }
+
+    main .titulo .main__subtitulo {
+        margin-left: 0;
+    }
+
     .redes_sociales {
         flex-direction: column;
         height: 15rem;
+        margin: 0;
     }
 
     .brand {
         margin-top: 1rem;
+    }
+
+    footer .redes_sociales .arriba #twitter {
+        margin-right: 0;
+    }
+
+    div .row {
+        width: 100%
+    }
+    
+    .perroBanner {
+        margin-left: 9rem;
+    }
+
+    .banner .requisitos__texto ul li {
+        line-height: 2rem;
     }
 
     .carousel-adopciones {
@@ -47,9 +77,12 @@
         width: 15%;
     }
 
-    .form_texto {
-        padding: 0;
+    .form_texto p {
         text-align: center;
+    }
+
+    .form_texto {
+        padding: 1rem;
     }
 
     .presentacion {
@@ -60,6 +93,10 @@
 
     .presentacion-imagen1, .presentacion-imagen2, .presentacion-imagen3, .presentacion-imagen4, .presentacion-imagen5 {
         padding: 1rem;
+    }
+
+    .contacto-form {
+        width: 75%;
     }
 
     .contacto-texto {
@@ -89,27 +126,47 @@
     }
 
     .main__titulo, .texto__deuda, #parrafo__2021 {
-        padding: 0;
+        padding: 2rem;
     }
 
     .main__subtitulo {
         margin: 0;
     }
 
+    .noticiaMimosa, .noticiaDeudaSaldada, .noticia2021 {
+        flex-direction: column;
+    }
+
     .div__fotoMimosa, .divImagenDeudaSaldada, .imagenes__2021 {
         display: flex;
     }
 
-    #fotoMimosa, #imagenDeudaSaldada, #cover2021, #adopciones2021, #vidas2021, #voluntarios2021, #gracias2021 {
+    main .noticiaMimosa #fotoMimosa, main .noticia2021 #cover2021, main .noticiaDeudaSaldada #imagenDeudaSaldada, main .noticia2021 #adopciones2021, main .noticia2021 #vidas2021, main .noticia2021 #voluntarios2021, main .noticia2021 #gracias2021  {
         width: 80%;
         margin: auto;
     }
 
-    .textoMimosa, #parrafo__2021 {
-        width: 90%;
-        margin: auto;
+    footer .redes_sociales {
+        width: 100%;
     }
 
+    footer .brand {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    
+    footer .brand .footer__logo {
+        margin: 0 11rem;
+    }
+
+    .brand a {
+        width: 100%;
+    }
+
+    footer .brand #copyright {
+        margin-right: 0;
+    }
+    
     .redes_sociales, .brand {
         width: auto;
     }
@@ -123,7 +180,7 @@
     }
 
     .footer__imagenes {
-        width: 100%;
+        width: 85%;
         margin: 2rem;
         margin-right: 0;
     }
@@ -142,8 +199,20 @@
         align-items: center;;
     }
 
+    .perroBanner {
+        margin: 0;
+    }
+
+    .banner .requisitos__imagen {
+        justify-content: center;
+    }
+
     .requisitos__texto h3 {
         margin-top: 2rem;
+    }
+    
+    .requisitos__texto {
+        margin: 1rem;
     }
 
     .carousel-adopciones {
