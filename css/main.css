@@ -668,6 +668,12 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
   .div__fotoMimosa, .divImagenDeudaSaldada, .imagenes__2021 {
     padding-bottom: 2rem;
   }
+  
+  main .noticiaDeudaSaldada #imagenDeudaSaldada, main .noticiaMimosa #fotoMimosa {
+    margin: 0px 8.3rem 
+    }
+    
+    
   .div__textoMimosa, .div__textoDeudaSaldada, .texto__2021 {
     -webkit-box-align: center;
         -ms-flex-align: center;
