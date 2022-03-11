@@ -859,5 +859,9 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
     margin: 1.5rem;
     text-align: left;
   }
+  
+  .formulario_botones button, #contacto-form-limpiar, #contacto-form-send {
+    margin:auto;
+  }
 }
 /*# sourceMappingURL=main.css.map */
