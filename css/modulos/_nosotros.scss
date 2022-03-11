@@ -1,0 +1,51 @@
+
+.presentacion-texto {
+    line-height: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    grid-area: presentacion-texto;
+    p {
+       margin-bottom: 1rem;
+       text-align: justify;
+    }
+}
+
+.presentacion {
+    height: 60rem;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "presentacion-imagen1 presentacion-texto presentacion-texto presentacion-texto"
+    "presentacion-imagen2 presentacion-texto presentacion-texto presentacion-texto"
+    "none presentacion-imagen3 presentacion-imagen4 presentacion-imagen5";
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    .presentacion-imagen1 {
+        grid-area: presentacion-imagen1;
+    }
+    
+    .presentacion-imagen2 {
+        grid-area: presentacion-imagen2;
+    }
+    
+    .presentacion-imagen3 {
+        grid-area: presentacion-imagen3;
+        margin: auto;
+    }
+    
+    .presentacion-imagen4 {
+        grid-area: presentacion-imagen4;
+        margin: auto;
+    }
+    
+    .presentacion-imagen5 {
+        grid-area: presentacion-imagen5;
+        margin: auto;
+    }
+    .presentacion-imagen {
+        height: 200px;
+        width: 300px;
+        border: double #7F5539 5px;
+    }
+}

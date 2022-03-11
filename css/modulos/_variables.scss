@@ -1,0 +1,22 @@
+
+/* Mixin */
+@mixin fontf-fonts-lineh {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 3rem;
+}
+
+/* Map */
+$divs: (
+    "redes_sociales": redes_sociales,
+    "brand": brand,
+    "footer__imagenes": footer__imagenes
+);
+
+@each $div, $class in $divs {
+    .#{$class} {
+        margin: 1rem 3rem;
+        height: 12.5rem;
+        width: 31rem;
+    }
+}

@@ -1,0 +1,226 @@
+@import "./variables";
+
+@media screen and (max-width: 768px) {
+    
+    .noticiaMimosa, .noticiaDeudaSaldada, .noticia2021 {
+        display: inline;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .titulo{
+        text-align: center;
+    }
+
+    .div__fotoMimosa, .divImagenDeudaSaldada, .imagenes__2021 {
+        padding-bottom: 2rem;
+    }
+
+    .div__textoMimosa, .div__textoDeudaSaldada, .texto__2021 {
+        align-items: center;
+    }
+
+    .texto__mimosa, .texto__deuda, #parrafo__2021 {
+        padding: 1rem;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .titulo {
+        padding: 2rem;
+    }
+
+    main .titulo .main__titulo, .main__pregunta {
+        padding-left: 0;
+    }
+
+    main .titulo .main__subtitulo {
+        margin-left: 0;
+    }
+
+    .redes_sociales {
+        flex-direction: column;
+        height: 15rem;
+        margin: 0;
+    }
+
+    .brand {
+        margin-top: 1rem;
+    }
+
+    footer .redes_sociales .arriba #twitter {
+        margin-right: 0;
+    }
+
+    div .row {
+        width: 100%
+    }
+    
+    .perroBanner {
+        margin-left: 9rem;
+    }
+
+    .banner .requisitos__texto ul li {
+        line-height: 2rem;
+    }
+
+    .carousel-adopciones {
+        width: 75%;
+        height: 50rem;
+        margin-top: 2rem;
+    }
+
+    .carousel-control-next-gatos, .carousel-control-prev-gatos {
+        width: 15%;
+    }
+
+    .form_texto p {
+        text-align: center;
+    }
+
+    .form_texto {
+        padding: 1rem;
+    }
+
+    .presentacion {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .presentacion-imagen1, .presentacion-imagen2, .presentacion-imagen3, .presentacion-imagen4, .presentacion-imagen5 {
+        padding: 1rem;
+    }
+
+    .contacto-form {
+        width: 75%;
+    }
+
+    .contacto-texto {
+        padding: 2rem;
+    }
+
+    .texto-form-contacto {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .header-logo {
+        margin: 1rem auto;
+    }
+
+    .nav-item {
+        width: 80%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .main__titulo, .texto__deuda, #parrafo__2021 {
+        padding: 2rem;
+    }
+
+    .main__subtitulo {
+        margin: 0;
+    }
+
+    .noticiaMimosa, .noticiaDeudaSaldada, .noticia2021 {
+        flex-direction: column;
+    }
+
+    .div__fotoMimosa, .divImagenDeudaSaldada, .imagenes__2021 {
+        display: flex;
+    }
+
+    main .noticiaMimosa #fotoMimosa, main .noticia2021 #cover2021, main .noticiaDeudaSaldada #imagenDeudaSaldada, main .noticia2021 #adopciones2021, main .noticia2021 #vidas2021, main .noticia2021 #voluntarios2021, main .noticia2021 #gracias2021  {
+        width: 80%;
+        margin: auto;
+    }
+
+    footer .redes_sociales {
+        width: 100%;
+    }
+
+    footer .brand {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    
+    footer .brand .footer__logo {
+        margin: 0 11rem;
+    }
+
+    .brand a {
+        width: 100%;
+    }
+
+    footer .brand #copyright {
+        margin-right: 0;
+    }
+    
+    .redes_sociales, .brand {
+        width: auto;
+    }
+
+    .brand a{
+        margin: auto;
+    }
+
+    .footer__logo, #copyright {
+        margin: auto;
+    }
+
+    .footer__imagenes {
+        width: 85%;
+        margin: 2rem;
+        margin-right: 0;
+    }
+
+    .main__pregunta {
+        padding: 0;
+    }
+
+    .requisitos__imagen {
+        justify-content: center;
+    }
+    
+    .requisitos__texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;;
+    }
+
+    .perroBanner {
+        margin: 0;
+    }
+
+    .banner .requisitos__imagen {
+        justify-content: center;
+    }
+
+    .requisitos__texto h3 {
+        margin-top: 2rem;
+    }
+    
+    .requisitos__texto {
+        margin: 1rem;
+    }
+
+    .carousel-adopciones {
+        height: 30rem;
+    }
+    
+    .form_texto {
+        margin: 1.5rem;
+        text-align: left;
+    }
+}
