@@ -505,6 +505,10 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
   padding-left: 5rem;
 }
 
+.anchoBanner {
+  width: 100%;
+}
+
 .banner {
   padding: 3rem 0;
   background-color: #DDB892;
@@ -798,7 +802,7 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
     width: 100%;
   }
   footer .brand #copyright {
-    margin-right: 0;
+    margin: auto;
   }
   .redes_sociales, .brand {
     width: auto;
@@ -854,6 +858,10 @@ footer .footer__imagenes #footerImg1, footer .footer__imagenes #footerImg2, foot
   .form_texto {
     margin: 1.5rem;
     text-align: left;
+  }
+  
+  .formulario_botones button, #contacto-form-limpiar, #contacto-form-send {
+    margin:auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
